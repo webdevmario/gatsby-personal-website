@@ -1,0 +1,53 @@
+section .section-content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 120px 20px;
+}
+
+section h2 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  letter-spacing: 8px;
+}
+
+section.white {
+  background-color: #fff;
+}
+
+section.white h2 {
+  color: #333;
+}
+
+section.dark {
+  background-color: #333;
+}
+
+section.dark h2 {
+  color: #fff;
+}
+
+section.white .content {
+  color: #333;
+}
+
+section.dark .content {
+  color: #fff;
+}
+
+section .content {
+  text-align: center;
+}
+
+section .divider {
+  width: 300px;
+  margin: 0 auto 40px;
+}
+
+section.white .divider {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+section.dark .divider {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}

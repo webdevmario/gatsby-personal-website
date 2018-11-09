@@ -1,0 +1,16 @@
+.job-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.job-row > div {
+  /* text-transform: uppercase; */
+}
+
+.job-row.highlight > div {
+  font-weight: 600;
+}
+
+.job-company-title {
+  font-size: 0.9rem;
+}

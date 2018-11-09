@@ -1,0 +1,19 @@
+.social-icons {
+  color: white;
+
+  position: absolute;
+  bottom: 30px;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.social-icons a {
+  text-decoration: none;
+  color: white;
+}
+
+.social-icons > div {
+  display: inline-block;
+  margin: 0 14px;
+}
