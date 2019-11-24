@@ -7,7 +7,15 @@ const ContactMe = () => (
       <h2>Contact Me</h2>
       <div className="divider"></div>
       <div className="content">
-        Contact Me goes here.
+        <div>
+          Email
+        </div>
+        <div>
+          Linked In
+        </div>
+        <div>
+          Twitter
+        </div>
       </div>
     </div>
   </section>

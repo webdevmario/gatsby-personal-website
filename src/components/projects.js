@@ -7,7 +7,7 @@ const Projects = () => (
       <h2>Projects</h2>
       <div className="divider"></div>
       <div className="content">
-        Projects go here.
+        Projects: nba tweetboard, movie site, quiz
       </div>
     </div>
   </section>
