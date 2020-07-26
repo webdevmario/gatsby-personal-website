@@ -4,3 +4,26 @@
 html, body, h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
 }
+
+// custom scrollbar
+
+body::-webkit-scrollbar {
+  width: .7rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #4c4f50;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #b9b9b9;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #4c4f50;
+  border-radius: .5rem;
+  background: rgb(110, 111, 111);
+  border: 1px solid rgba(110, 111, 111, .5);
+}

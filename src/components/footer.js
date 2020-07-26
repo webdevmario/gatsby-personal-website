@@ -4,7 +4,7 @@ import Img from 'gatsby-image';
 const Footer = () => (
   <div
     style={{
-      background: 'rgba(0, 0, 0, 0.21)',
+      background: 'white',
       padding: '30px',
       textTransform: 'uppercase',
       color: 'rgba(0, 0, 0, 0.6)',
@@ -16,7 +16,7 @@ const Footer = () => (
       Mario Portillo
     </div>
     <div style={{ fontSize: '0.6rem' }}>
-      Web Developer &bull; Designer &bull; Project Manager
+      &copy; 2020
     </div>
 
     {/* <div style={{ fontSize: '0.5rem' }}>

@@ -76,24 +76,26 @@
   -o-animation-delay:1s;
    animation-delay:1s; */
 
-@keyframes move{
+@keyframes move {
   0%  { top: 0px; }
   28% { top: -27px; }
   55% { top: -55px; }
-  }
+}
 
-  @-webkit-keyframes move {
+@-webkit-keyframes move {
   0%  { top: 0px; }
   28% { top: -27px; }
   55% { top: -55px; }
-  }
-  @-moz-keyframes move {
+}
+
+@-moz-keyframes move {
   0%  { top: 0px; }
   28% { top: -27px; }
   55% { top: -55px; }
-  }
-  @-o-keyframes move {
+}
+
+@-o-keyframes move {
   0%  { top: 0px; }
   28% { top: -25px; }
   55% { top: -55px; }
-  }
+}
