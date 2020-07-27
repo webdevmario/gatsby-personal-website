@@ -4,7 +4,7 @@ import './common/section.css';
 import './experience.css';
 
 const Experience = () => (
-  <section className="dark">
+  <section id="experience" className="dark">
     <div className="section-content">
       <h2>Experience</h2>
       <div className="divider"></div>

@@ -55,6 +55,15 @@
   white-space: nowrap;
   top: 0;
   left: 0;
+
+  opacity: 1;
+  animation: fade 6.05s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fade {
+  0%,100% { opacity: 0 }
+  50% { opacity: 1 }
 }
 
   /*animation*/

@@ -10,16 +10,16 @@ class Navigation extends Component {
             <a href="#" title="Home">Home</a>
           </div>
           <div>
-            <a href="#" title="About Me">About Me</a>
+            <a href="#about-me" title="About Me">About Me</a>
           </div>
           <div>
-            <a href="#" title="Experience">Experience</a>
+            <a href="#experience" title="Experience">Experience</a>
           </div>
           <div>
-            <a href="#" title="Projects">Projects</a>
+            <a href="#projects" title="Projects">Projects</a>
           </div>
           <div>
-            <a href="#" title="Contact Me">Contact Me</a>
+            <a href="#contact-me" title="Contact Me">Contact Me</a>
           </div>
         </div>
       </nav>

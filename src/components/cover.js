@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, useState, useEffect } from 'react';
 import { Link, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import Navigation from './navigation';
@@ -8,6 +8,26 @@ import './cover.css';
 import textFill from '../images/animated-text-fill.png';
 
 const Cover = ({ coverImg }) => {
+  const [descriptors, setDescriptors] = useState([
+    'Web Developer',
+    'Designer',
+    'Project Manager'
+  ]);
+  const [activeDescriptor, setActiveDescriptor] = useState(descriptors[0]);
+
+  function updateDescriptor () {
+    setTimeout(() => {
+      let nextIdx = descriptors.findIndex((descriptor) => descriptor === activeDescriptor) + 1;
+      const nextDescriptor = (nextIdx < descriptors.length) ? descriptors[nextIdx] : descriptors[0];
+
+      setActiveDescriptor(nextDescriptor);
+    }, 6000);
+  }
+
+  useEffect(() => {
+    updateDescriptor();
+  }, [activeDescriptor]);
+
   return (
     <div
       id="#top"
@@ -31,7 +51,7 @@ const Cover = ({ coverImg }) => {
           Mario Portillo
         </div>
         <div className="subtitle">
-          Web Developer
+          { activeDescriptor }
         </div>
       </div>
       <SocialIcons />

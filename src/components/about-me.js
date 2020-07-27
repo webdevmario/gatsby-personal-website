@@ -10,7 +10,7 @@ import './about-me.css';
   // />
 
 const AboutMe = () => (
-  <section className="about-me white">
+  <section id="about-me" className="about-me white">
     <div className="section-content">
       <h2>About Me</h2>
       <div className="divider"></div>
