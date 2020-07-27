@@ -5,7 +5,7 @@ html, body, h1, h2, h3 {
   font-family: 'Raleway', sans-serif;
 }
 
-// custom scrollbar
+/* custom scrollbar */
 
 body::-webkit-scrollbar {
   width: .7rem;
@@ -22,7 +22,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #4c4f50;
+  background-color: red;
   border-radius: .5rem;
   background: rgb(110, 111, 111);
   border: 1px solid rgba(110, 111, 111, .5);
