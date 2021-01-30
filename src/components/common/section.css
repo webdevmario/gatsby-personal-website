@@ -39,6 +39,14 @@ section .content {
   text-align: center;
 }
 
+section .content-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 850px;
+}
+
 section .divider {
   width: 300px;
   margin: 0 auto 40px;

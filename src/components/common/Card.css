@@ -1,0 +1,7 @@
+.card {
+  border: 1px solid lightgray;
+  width: 300px;
+  border-radius: 15px;
+  margin: 15px;
+  flex-grow: 1
+}
